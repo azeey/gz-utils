@@ -152,5 +152,5 @@ const Result &GetConstantMagicNumbers()
 GTEST_TEST(NeverDestroyedExample, GetConstantMagicNumbers)
 {
   const auto &numbers = GetConstantMagicNumbers();
-  EXPECT_EQ(numbers.size(), 10u);
+  EXPECT_EQ(numbers.size(), 11u);
 }

@@ -30,4 +30,4 @@ jobs:
         uses: actions/checkout@v4
       - name: Compile and test
         id: ci
-        uses: azeey/action-gz-ci@add_test_summary
+        uses: azeey/action-gz-ci@jammy
